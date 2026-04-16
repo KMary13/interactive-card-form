@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Interactive card details form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <div class="card_container">
+        <div class="card_back_wrapper">
+          <img
+            src="./images/bg-card-back.png"
+            alt="card back"
+            class="card_back"
+          />
+          <span class="card_cvc_display">000</span>
+        </div>
+        <div class="card_front_wrapper">
+          <img
+            src="./images/bg-card-front.png"
+            alt="card front"
+            class="card_front"
+          />
+          <img src="./images/card-logo.svg" alt="Card logo" class="card_logo" />
+          <p class="card_number_display">0000 0000 0000 0000</p>
+          <div class="card_name_date_display">
+            <p class="card_name_display">Jane Appleseed</p>
+            <p class="card_date_display">00/00</p>
+          </div>
+        </div>
+      </div>
+      <form id="payment-form" class="form_container">
+        <div class="input_group">
+          <label for="name">Cardholder Name</label>
+          <input type="text" id="name" placeholder="e.g. Jane Appleseed" />
+          <span class="error_msg"></span>
+        </div>
+        <div class="input_group">
+          <label for="number">Card Number</label>
+          <input
+            type="text"
+            id="number"
+            maxlength="19"
+            placeholder="e.g. 1234 5678 9123 0000"
+          />
+          <span class="error_msg"></span>
+        </div>
+        <div class="form_bottom_row">
+          <div class="date_group">
+            <label>Exp. Date (MM/YY)</label>
+            <div class="date_inputs">
+              <input
+                type="text"
+                id="month"
+                aria-label="Expiration month"
+                placeholder="MM"
+                maxlength="2"
+                inputmode="numeric"
+              />
+              <input
+                type="text"
+                id="year"
+                aria-label="Expiration year"
+                placeholder="YY"
+                maxlength="2"
+                inputmode="numeric"
+              />
+            </div>
+            <span class="error_msg"></span>
+          </div>
+          <div class="cvc_group">
+            <label for="cvc">CVC</label>
+            <input type="text" id="cvc" placeholder="e.g. 123" maxlength="3" />
+            <span class="error_msg"></span>
+          </div>
+        </div>
+
+        <button type="submit" class="btn">Confirm</button>
+      </form>
+
+      <section class="thank_you_section hidden">
+        <img src="./images/icon-complete.svg" alt="complete icon" />
+        <h1>Thank you!</h1>
+        <p>We've added your card details</p>
+        <button type="button" class="btn-continue">Continue</button>
+      </section>
+    </main>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Mariana</a>.
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
