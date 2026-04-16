@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Screenshot
 
-![Project Screenshot](./screenshot.jpg)
-_(Note: Replace this with your actual project screenshot)_
+![Project Screenshots](./screenshots/desktop_screenshot.jpg)
+(./screenshots/mobile_screenshot.jpg)
 
 ### Links
 
