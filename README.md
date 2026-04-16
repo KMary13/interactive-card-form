@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- **Solution URL:** [Add your GitHub link here](https://github.com/KMary13/your-repo-name)
-- **Live Site URL:** [Add your live site link here](https://kmary13.github.io/your-repo-name)
+- **Solution URL:** [(https://github.com/KMary13/interactive-card-form)]
+- **Live Site URL:** [(https://test-interactive-cards.netlify.app/)]
 
 ## My process
 
