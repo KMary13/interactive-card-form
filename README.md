@@ -35,7 +35,7 @@ _(Note: Replace this with your actual project screenshot)_
 
 ### Links
 
-- **Solution URL:** [Add your GitHub link here](https://github.com/KMary13/your-repo-name)
+- **Solution URL:** [(https://github.com/KMary13/interactive-card-form)]
 - **Live Site URL:** [(https://test-interactive-cards.netlify.app/)]
 
 ## My process
